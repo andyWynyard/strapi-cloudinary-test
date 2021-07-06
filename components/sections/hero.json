@@ -2,11 +2,12 @@
   "collectionName": "components_decoration_heroes",
   "info": {
     "name": "Hero",
-    "icon": "diagnoses"
+    "icon": "diagnoses",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     }
   }
