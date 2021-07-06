@@ -17,7 +17,7 @@
       "repeatable": false,
       "component": "custom.seo"
     },
-    "Hero": {
+    "hero": {
       "type": "component",
       "repeatable": false,
       "component": "sections.hero"

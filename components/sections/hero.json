@@ -1,7 +1,7 @@
 {
   "collectionName": "components_decoration_heroes",
   "info": {
-    "name": "Hero",
+    "name": "hero",
     "icon": "diagnoses",
     "description": ""
   },
@@ -9,6 +9,18 @@
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }

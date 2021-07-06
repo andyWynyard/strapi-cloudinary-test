@@ -12,10 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "SiteName": {
+    "siteName": {
       "type": "string"
     },
-    "FavIcon": {
+    "favIcon": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
@@ -27,7 +27,7 @@
       "required": false,
       "pluginOptions": {}
     },
-    "DefaultSeo": {
+    "defaultSeo": {
       "type": "component",
       "repeatable": false,
       "component": "custom.seo"

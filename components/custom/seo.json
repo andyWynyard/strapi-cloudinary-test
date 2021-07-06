@@ -1,18 +1,19 @@
 {
   "collectionName": "components_custom_seos",
   "info": {
-    "name": "Seo",
-    "icon": "tools"
+    "name": "seo",
+    "icon": "tools",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "MetaTitle": {
+    "metaTitle": {
       "type": "string"
     },
-    "MetaDescription": {
+    "metaDescription": {
       "type": "text"
     },
-    "ShareImage": {
+    "shareImage": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
