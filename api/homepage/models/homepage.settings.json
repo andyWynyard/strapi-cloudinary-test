@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "Global",
+  "info": {
+    "name": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Seo": {
+      "type": "dynamiczone",
+      "components": [
+        "custom.seo"
+      ]
+    }
+  }
+}
