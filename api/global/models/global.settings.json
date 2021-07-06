@@ -1,6 +1,6 @@
 {
   "kind": "singleType",
-  "collectionName": "globals",
+  "collectionName": "global",
   "info": {
     "name": "Global",
     "description": ""

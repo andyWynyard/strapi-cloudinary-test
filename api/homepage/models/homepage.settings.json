@@ -1,6 +1,6 @@
 {
   "kind": "singleType",
-  "collectionName": "Global",
+  "collectionName": "homepage",
   "info": {
     "name": "Homepage",
     "description": ""
@@ -12,11 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Seo": {
-      "type": "dynamiczone",
-      "components": [
-        "custom.seo"
-      ]
+    "defaultSeo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "custom.seo"
+    },
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
     }
   }
 }
