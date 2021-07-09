@@ -8,4 +8,7 @@ module.exports = ({ env }) => ({
       folder: env('CLOUDINARY_FOLDER'),
     },
   },
+  graphql: {
+    playgroundAlways: true,
+  },
 })
